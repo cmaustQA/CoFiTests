@@ -35,6 +35,7 @@ module.exports = defineConfig({
   projects: [
     {
       name: 'chromium',
+      executablePath: '/etc/chromium',
       use: { ...devices['Desktop Chrome'] },
     },
 
